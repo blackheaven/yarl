@@ -4,6 +4,7 @@ import Criterion.Main
 import PlainRecord.ScenarioDirect
 import PlainRecord.ScenarioGetValueClass
 import PlainRecord.ScenarioGetValueConcrete
+import PlainRecord.Type
 import PlainRecord.Value
 
 main :: IO ()

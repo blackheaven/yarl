@@ -19,16 +19,18 @@
         jailbreakUnbreak = pkg:
           pkgs.haskell.lib.doJailbreak (pkgs.haskell.lib.dontCheck (pkgs.haskell.lib.unmarkBroken pkg));
 
+        activateBenchmark = pkgs.haskell.lib.doBenchmark;
+
         haskellPackages = pkgs.haskell.packages.ghc924.override {
           overrides = hself: hsuper: { };
         };
       in
       rec
       {
-        packages.yarl = # (ref:haskell-package-def)
-          haskellPackages.callCabal2nixWithOptions "yarl" ./. "-fbenchmark" rec {
+        packages.yarl =
+          activateBenchmark (haskellPackages.callCabal2nix "yarl" ./. rec {
             # Dependency overrides go here
-          };
+          });
 
         defaultPackage = packages.yarl;
 

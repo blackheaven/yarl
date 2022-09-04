@@ -38,6 +38,7 @@ library
       LambdaCase
       OverloadedLists
       OverloadedStrings
+      OverloadedRecordDot
       RankNTypes
       RecordWildCards
       ScopedTypeVariables
@@ -70,6 +71,7 @@ test-suite librarian-test
       LambdaCase
       OverloadedLists
       OverloadedStrings
+      OverloadedRecordDot
       RankNTypes
       RecordWildCards
       ScopedTypeVariables
@@ -113,6 +115,7 @@ benchmark bench
       LambdaCase
       OverloadedLists
       OverloadedStrings
+      OverloadedRecordDot
       RankNTypes
       RecordWildCards
       ScopedTypeVariables
