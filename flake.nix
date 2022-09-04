@@ -28,7 +28,8 @@
       rec
       {
         packages.yarl =
-          activateBenchmark (haskellPackages.callCabal2nix "yarl" ./. rec {
+          # activateBenchmark
+          (haskellPackages.callCabal2nix "yarl" ./. rec {
             # Dependency overrides go here
           });
 

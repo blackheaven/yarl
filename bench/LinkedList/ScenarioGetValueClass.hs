@@ -1,4 +1,4 @@
-module PlainRecord.ScenarioGetValueClass where
+module LinkedList.ScenarioGetValueClass where
 
 import GHC.Records
 

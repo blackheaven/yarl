@@ -18,7 +18,7 @@ library
       base == 4.*
   hs-source-dirs: src
   exposed-modules:
-      -- Data.Records.Yarl
+      Data.Records.Yarl.LinkedList
   other-modules:
       Paths_yarl
   autogen-modules:
@@ -97,6 +97,11 @@ benchmark bench
       PlainRecord.ScenarioDirect
       PlainRecord.ScenarioGetValueConcrete
       PlainRecord.ScenarioGetValueClass
+      LinkedList.Type
+      LinkedList.Value
+      LinkedList.ScenarioDirect
+      LinkedList.ScenarioGetValueConcrete
+      LinkedList.ScenarioGetValueClass
       Paths_yarl
   autogen-modules:
       Paths_yarl
@@ -128,3 +133,4 @@ benchmark bench
       base
     , yarl
     , criterion
+    , deepseq
