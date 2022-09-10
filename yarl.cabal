@@ -1,14 +1,14 @@
 cabal-version:       3.0
 name:                yarl
-version:             0.1.0.0
+version:             0.1.0.1
 author:              Gautier DI FOLCO
 maintainer:          gautier.difolco@gmail.com
 category:            Data
 build-type:          Simple
 license:             ISC
 license-file:        LICENSE
-synopsis:            Yet another recrds libraries
-description:         Yet another recrds libraries (with getField support)
+synopsis:            Yet another records libraries
+description:         Yet another records libraries (with getField support)
 Homepage:            http://github.com/blackheaven/yarl
 tested-with:         GHC==9.2.4
 
