@@ -27,6 +27,7 @@
 module Data.Records.Yarl.LinkedList
   ( Record (..),
     Field (..),
+    HasNotField (..),
     HasField (..),
   )
 where
