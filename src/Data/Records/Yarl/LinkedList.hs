@@ -4,13 +4,13 @@
 -- |
 -- Module        : Data.Records.Yarl.LinkedList
 -- Copyright     : Gautier DI FOLCO
--- License       : BSD3
+-- License       : ISC
 --
 -- Maintainer    : Gautier DI FOLCO <gautier.difolco@gmail.com>
 -- Stability     : Unstable
 -- Portability   : not portable
 --
--- Add empty endpoint (for Health check tests)
+-- Provide a simple record library working with 'HasField'
 --
 -- Example:
 --
