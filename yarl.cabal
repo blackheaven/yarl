@@ -47,12 +47,11 @@ library
       TypeOperators
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wpartial-fields -Wredundant-constraints
 
-test-suite librarian-test
+test-suite yarl-test
   type: exitcode-stdio-1.0
   hs-source-dirs: test
   main-is: Spec.hs
   other-modules:
-      -- LibrarianSpec
       Paths_yarl
   autogen-modules:
       Paths_yarl
